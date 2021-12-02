@@ -33,18 +33,40 @@
                 </select></label>
             </section>
             <div class="familia">
-                <label id="label-family">Qual sua família?</label>
-                <input name="family" type="radio" value="Frontend" id="Frontend">Família Frontend
-                <input name="family" type="radio" value="Backend" >Família Backend
-                <input name="family" type="radio" value="FullStack" >Família FullStack
-                <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <input type="checkbox" value="HoFs">HoFs
-                <input type="checkbox" value="Jest">Jest
-                <input type="checkbox" value="Promises">Promises
-                <input type="checkbox" value="React">React
-                <input type="checkbox" value="SQL">SQL
-                <input type="checkbox" value="Python">Python            
+                <section>
+                    <label id="label-family">Qual sua família?</label>
+                    <div class="column">
+                        <input name="family" type="radio" value="Frontend" id="Frontend">Família Frontend
+                        <input name="family" type="radio" value="Backend" >Família Backend
+                        <input name="family" type="radio" value="FullStack" >Família FullStack
+                    </div>
+                </section>
+                <section>
+                    <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div>
+                        <input type="checkbox" value="HoFs">HoFs
+                        <input type="checkbox" value="Jest">Jest
+                        <input type="checkbox" value="Promises">Promises
+                        <input type="checkbox" value="React">React
+                        <input type="checkbox" value="SQL">SQL
+                        <input type="checkbox" value="Python">Python
+                    </div>
+                </section>  
             </div>
+            <section class="line">
+                <label for="rate" id="label-rate">Como você avalia a Trybewarts?
+                </label>
+                <input type="radio" value="1" name="rate">1
+                    <input type="radio" value="2" name="rate">2
+                    <input type="radio" value="3" name="rate">3
+                    <input type="radio" value="4" name="rate">4
+                    <input type="radio" value="5" name="rate">5
+                    <input type="radio" value="6" name="rate">6
+                    <input type="radio" value="7" name="rate">7
+                    <input type="radio" value="8" name="rate">8
+                    <input type="radio" value="9" name="rate">9
+                    <input type="radio" value="10" name="rate">10
+            </section>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Brasão da Trybewarts">
     </main>
