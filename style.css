@@ -37,3 +37,13 @@ main {
   flex-direction: column;
   margin-right: 40px;
 }
+
+footer {
+  margin: 0 auto;
+  align-content: center;
+}
+
+footer h4 {
+  align-content: center;
+  margin-left: 40%;
+}
