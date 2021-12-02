@@ -26,3 +26,8 @@ main {
 .line {
   flex-direction: row;
 }
+
+.familia {
+  display: flex;
+  flex-direction: column;
+}
