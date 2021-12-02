@@ -9,3 +9,4 @@ function verificaEmail() {
   }
 }
 enviar.addEventListener('click', verificaEmail);
+console.log('aaaaa');
