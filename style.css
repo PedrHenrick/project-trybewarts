@@ -1,4 +1,10 @@
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
   display: flex;
 }
