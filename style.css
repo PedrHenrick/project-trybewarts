@@ -7,6 +7,7 @@
 
 .trybewarts-login {
   display: flex;
+  align-content: space-between;
 }
 
 main {
@@ -28,8 +29,9 @@ main {
 }
 
 .line {
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 5px;
@@ -73,3 +75,28 @@ footer h4 {
   font-weight: 800;
   border-radius: 8px;
 }
+
+.avaliacao {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.line-um {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#email {
+  border-radius: 8px;
+}
+
+#password {
+  border-radius: 8px;
+}
+
+#buttonEnter {
+  border-radius: 8px;
+}
+
