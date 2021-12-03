@@ -11,12 +11,16 @@
 
 main {
   display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: 20px;
 }
 
 #evaluation-form {
   display: flex;
-  width: 675px;
+  align-content: space-around;
   flex-direction: column;
+  width: 675px;
 }
 
 #trybewarts-forms-logo {
@@ -25,25 +29,47 @@ main {
 
 .line {
   flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  flex-grow: 2;
 }
 
 .familia {
   display: flex;
   flex-direction: row;
+  align-content: space-around;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   margin-right: 40px;
+  flex-grow: 2;
+  width: 120px;
 }
 
 footer {
   margin: 0 auto;
   align-content: center;
+  bottom: 0;
+  background-color: grey;
+  padding: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 5px;
+  align-items: center;
 }
 
 footer h4 {
   align-content: center;
   margin-left: 40%;
+}
+
+#submit-btn {
+  background-color: indigo;
+  color: azure;
+  font-weight: 800;
+  border-radius: 8px;
 }
