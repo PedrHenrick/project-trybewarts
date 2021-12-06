@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -99,4 +104,3 @@ footer h4 {
 #buttonEnter {
   border-radius: 8px;
 }
-
